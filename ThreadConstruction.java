@@ -32,3 +32,9 @@ public class ThreadConstruction {
 		System.out.println("t2 thread group belong main TestGroup group:" + (group == t2.getThreadGroup()));
 	}
 }
+
+// 输出
+// Main thread belong group:main
+// t1 and main  belong the same group:true
+// t2 thread group not belong main group:false
+// t2 thread group belong main TestGroup group:true
